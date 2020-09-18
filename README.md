@@ -1,8 +1,9 @@
 # datamining_proj
-Term project for Data Mining
-We select the data set with 6000+ rows.
-header of rows:
-image_name, Image_URL, OCR_extracted_text, Corrected_text, Humour, Sarcasm, Offense, Motivation, Overall_sentiment
+Term project for Data Mining which we selected - Memotion analysis prediction. That is we attempted to catagorize what emotion a meme is expressing through its text contents and also tried to quantify that emotion on a scale of 0-3; still we couldn't implement the quantification. But implemented the emotion prediction for a meme on the basis of text contents.
+
+We selected the data set with 6000+ rows.
+
+We designed to catagorize a meme as follows:
 
 Humor:
 not_funny   (0)
@@ -34,7 +35,3 @@ negative        (1)
 neutral         (2)
 positive        (3)
 very_positive   (4)
-
-
-
-We will remove any row which has null entry in one of the columns

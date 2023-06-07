@@ -35,3 +35,19 @@ negative        (1)
 neutral         (2)
 positive        (3)
 very_positive   (4)
+
+
+Additional instructiosn on how to run and test the project.
+1.	Must keep the files named ‘data_6512_new.csv’ and ‘meme_final.py’ in one folder. Here ‘data_6512_new.csv’ is the dataset for the project and ‘meme_final.py’ is the python script to run.
+2.	We run our code in Spyder environment in Anaconda. 
+3.	Run the python script ‘mem_final.py’. It will generate 4 accuracy graphs one after another in the console, two for overall sentiment (positive/negative/neutral) and two for all the labels of
+    sentiments(humor/sarcasm/offensive/overall)
+4.	The following libraries will be needed to run the program:
+    numpy 
+    pandas 
+    sklearn
+    os    
+    matplotlib.pyplot
+    nltk
+    re
+Thank you. 
